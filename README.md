@@ -116,18 +116,6 @@ python train_sac_carla.py \
 
 ---
 
-## Monitoring Progress
-
-Training progress is logged automatically via TensorBoard. To view real-time metrics (rewards, episode lengths, actor/critic losses):
-
-```bash
-tensorboard --logdir ./sac_tensorboard/
-```
-
-Navigate to `http://localhost:6006` in your web browser.
-
----
-
 <div align="center">
   <i>Developed for the future of Autonomous Driving.</i>
 </div>
